@@ -1,5 +1,5 @@
 // AboutUs.jsx
-
+import myImg2 from '../assets/rohit.jpg';
 import myImg from '../assets/meeee.png';
 import Footer from './Home/Footer';
 import Nav from './Home/Nav';
@@ -81,13 +81,13 @@ const AboutUs = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg m-4 w-72">
               <div className="w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src={myImg2}
                   alt="Team Member"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800">John Doe</h3>
-              <p className="text-gray-600">AI/ML Specialist</p>
+              <h3 className="text-xl font-semibold text-gray-800">Rohit Dhadambe</h3>
+              <p className="text-gray-600">CEO </p>
             </div>
           </div>
         </div>

@@ -8,13 +8,11 @@ import Projects from './components/Projects/Projects';
 import Topics from './components/Projects/Topics';
 import AboutUs from './components/AboutPage';
 import Profile from './components/Profile/Profile';
-import ChatBot from './components/Chat-Bot/ChatBot';
 function App() {
   
   return (
     <div className=''>
     <AuthProvider>
-      <ChatBot/>
       <BrowserRouter>
       <Routes>
          <Route index element={<Login />} />

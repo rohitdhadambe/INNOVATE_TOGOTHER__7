@@ -14,7 +14,7 @@ function Profile() {
         <div className=" w-[600px]  p-10 rounded-lg flex flex-col items-center">
           <img
             src={currentUser.photoURL}
-            alt="Profile"
+            
             className="w-32 h-32 rounded-full object-cover mb-4 shadow-lg"
           />
           <h1 className="text-2xl font-semibold mb-2">

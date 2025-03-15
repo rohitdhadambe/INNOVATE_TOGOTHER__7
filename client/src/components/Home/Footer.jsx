@@ -85,7 +85,7 @@ const Footer = () => {
 
       {/* Footer Text */}
       <div className="p-4 text-center">
-        © 2024 Rushikesh's Portfolio. All rights reserved.
+        © 2024 An open source contribuion platform. All rights reserved.
       </div>
     </footer>
   );
